@@ -1,3 +1,4 @@
 # iPhone-Calculator
 A prototype calculator of the classic iPhone app.
-![Alt text](/ScreenShot.png?raw=True "Screen Shot" =50x100)
+
+<img src="/ScreenShot.png" width="400" height="600" alt="Screen Shot">
