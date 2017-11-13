@@ -56,8 +56,11 @@ class ViewController: UIViewController {
                 
                 display.text = "+"
                 
+            } else if sender.tag == 17 {
+                
+                display.text = "%"
+                
             }
-            
             operatorTag = sender.tag
             displayOperator = true
             
@@ -78,6 +81,10 @@ class ViewController: UIViewController {
             } else if operatorTag == 15 {
                 
                 display.text = String(firstOperand + secondOperand)
+                
+            } else if operatorTag == 17 {
+                
+                display.text = String(fmod(firstOperand, secondOperand))
                 
             }
             
